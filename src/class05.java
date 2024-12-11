@@ -11,7 +11,7 @@ Alan Formülü : π * r * r;
 Formül : (𝜋 * (r*r) * 𝛼) / 360
 
  */
-public class Main {
+public class class05 {
     public static void main(String[] args) {
 
         final double PI = 3.14;
