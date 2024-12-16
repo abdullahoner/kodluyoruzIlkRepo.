@@ -12,20 +12,17 @@ Taksimetre açılış ücreti 10 TL'dir.
 
         Scanner scan = new Scanner(System.in);
         int km;
-        double perKm = 2.20,total,startPrice = 10;
+        double perKm = 2.20, total, startPrice = 10;
         System.out.print("mesafeyi giriniz : ");
         km = scan.nextInt();
 
+        total = (km * perKm);
+        total += startPrice;
 
-
-        total = (km*perKm);
-        total +=startPrice;
-
-
-        if (total<19){
+        if (total < 19) {
             System.out.println("tutar : 20 TL");
-        }else {
-            System.out.println("tutar : "+total);
+        } else {
+            System.out.println("tutar : " + total);
         }
     }
 }
