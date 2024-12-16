@@ -7,7 +7,7 @@ Yarıçapı r, merkez açısının ölçüsü 𝛼 olan daire diliminin alanı b
 Alan Formülü : π * r * r;
 Çevre Formülü : 2 * π * r;
 
-𝜋 sayısını = 3.14 alınız.
+𝜋 sayısını = 3.14 alınız..
 Formül : (𝜋 * (r*r) * 𝛼) / 360
 
  */
